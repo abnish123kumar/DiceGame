@@ -1,0 +1,10 @@
+.condition{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: 500;
+}
+.amount{
+    font-size: 24px;
+    font-weight: 500;
+}
