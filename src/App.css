@@ -1,16 +1,28 @@
 *{
-  background-color: blueviolet;
+  /* background-color: rgb(76, 7, 141); */
   padding: 0;
   margin: 0;
 }
+body{
+  background-image: url('body.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
 .App {
   text-align: center;
-  min-width: 1000px;
-  margin: 70px;
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
   min-height: 100px;
   border: 10px solid ;
   border-radius: 25px;
   padding: 10px;
+  background-image: url('backgr.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 5px 5px #685656;
+ 
 }
 
 .App-logo {
@@ -58,14 +70,18 @@
   font-size: 90px;
   
 }
-.App .walletMoney{
-  position: fixed;
-  top: 130px;
-  right: 170px;
-}
-.wallet{
-  font-size: 24px;
-  font-weight: 500;
+
+.App .wallet{
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  font-size: 30px;
+  font-weight: 700;
+  border: 5px solid black;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 3px #262323;
+  
 }
 .totalMoney{
   /* width: 90px;
@@ -83,20 +99,24 @@
   font-size: 90px;
 }
 .condition{
-  background : rgb(20, 59, 198);
-  border: 2px solid;
- padding: 50px;
+ 
+ 
+ padding: 20px;
   display: flex;
   justify-content: space-around;
   font-size: 24px;
   font-weight: 500;
-  
-  
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 5px #685656;
+  background-color: rgba(203, 75, 199, 0.333);
  
 }
 .amount{
   font-size: 24px;
   font-weight: 500;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .btn{
   min-width: 100px;
@@ -106,7 +126,7 @@
   margin: 20px;
   font-size: 22px;
   font-weight: 700;
-  background-color: black;
+  background-color: rgb(12, 8, 8);
   color: white;
 }
 /* .btn:hover{
@@ -117,4 +137,23 @@
   height: 30px;
   font-size: 22px;
   font-weight: 500;
+}
+span{
+ 
+}
+.condition div input{
+ 
+}
+.checkbox{
+  size: 30px;
+}
+input[type=radio] {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+  accent-color: black;
+  cursor: pointer;
+}
+button{
+  box-shadow: 1px 1px 5px 5px #685656;
 }
